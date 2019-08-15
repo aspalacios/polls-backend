@@ -9,3 +9,4 @@ C:\Users\Abigail\Documents\VS Projects\PollApi\UserDataAccess\obj\Debug\UserData
 C:\Users\Abigail\Documents\VS Projects\PollApi\UserDataAccess\obj\Debug\UserDataAccess.csproj.CopyComplete
 C:\Users\Abigail\Documents\VS Projects\PollApi\UserDataAccess\obj\Debug\UserDataAccess.dll
 C:\Users\Abigail\Documents\VS Projects\PollApi\UserDataAccess\obj\Debug\UserDataAccess.pdb
+C:\Users\Abigail\Documents\VS Projects\PollApi\UserDataAccess\obj\Debug\UserDataAccess.csprojAssemblyReference.cache

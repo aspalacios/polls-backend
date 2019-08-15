@@ -110,6 +110,8 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\OptionsController.cs" />
+    <Compile Include="Controllers\PollsController.cs" />
     <Compile Include="Controllers\TokenGenerator.cs" />
     <Compile Include="Controllers\TokenValidationHandler.cs" />
     <Compile Include="Controllers\UsersController.cs" />
@@ -117,6 +119,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginRequest.cs" />
+    <Compile Include="Models\OptionRequest.cs" />
+    <Compile Include="Models\PollRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +136,10 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PollDataAccess\PollDataAccess.csproj">
+      <Project>{81140ab1-f609-4eaa-a1f5-aff8777d45d6}</Project>
+      <Name>PollDataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UserDataAccess\UserDataAccess.csproj">
       <Project>{e5b656a3-69a9-4c10-8714-480b57e62c3b}</Project>
       <Name>UserDataAccess</Name>

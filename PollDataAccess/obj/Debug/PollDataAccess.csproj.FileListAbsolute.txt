@@ -1,0 +1,12 @@
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\bin\Debug\PollDataAccess.dll.config
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\bin\Debug\PollDataAccess.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\bin\Debug\PollDataAccess.pdb
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\obj\Debug\PollDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\obj\Debug\PollDataAccess.csproj.CopyComplete
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\obj\Debug\PollDataAccess.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\obj\Debug\PollDataAccess.pdb
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollDataAccess\obj\Debug\PollDataAccess.csprojAssemblyReference.cache
