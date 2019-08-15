@@ -86,3 +86,6 @@ C:\Users\Abigail\Documents\VS Projects\PollApi\PollApi\obj\Debug\PollApi.csproj.
 C:\Users\Abigail\Documents\VS Projects\PollApi\PollApi\obj\Debug\PollApi.csproj.CopyComplete
 C:\Users\Abigail\Documents\VS Projects\PollApi\PollApi\obj\Debug\PollApi.dll
 C:\Users\Abigail\Documents\VS Projects\PollApi\PollApi\obj\Debug\PollApi.pdb
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollApi\bin\OptionDataAccess.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollApi\bin\OptionDataAccess.pdb
+C:\Users\Abigail\Documents\VS Projects\PollApi\PollApi\bin\OptionDataAccess.dll.config

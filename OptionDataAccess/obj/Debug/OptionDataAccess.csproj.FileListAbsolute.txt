@@ -1,0 +1,12 @@
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\bin\Debug\OptionDataAccess.dll.config
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\bin\Debug\OptionDataAccess.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\bin\Debug\OptionDataAccess.pdb
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\obj\Debug\OptionDataAccess.csprojAssemblyReference.cache
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\obj\Debug\OptionDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\obj\Debug\OptionDataAccess.csproj.CopyComplete
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\obj\Debug\OptionDataAccess.dll
+C:\Users\Abigail\Documents\VS Projects\PollApi\OptionDataAccess\obj\Debug\OptionDataAccess.pdb

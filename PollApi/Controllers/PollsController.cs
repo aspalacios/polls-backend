@@ -1,4 +1,6 @@
-﻿using PollDataAccess;
+﻿using OptionDataAccess;
+using PollApi.Models;
+using PollDataAccess;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -13,12 +15,40 @@ namespace PollApi.Controllers
     {
         [HttpGet]
         [Route("all")]
-        public IEnumerable<Poll> Get()
+        public IHttpActionResult Get()
         {
-            using (PollDataEntities entities = new PollDataEntities())
+            PollDataEntities entities = new PollDataEntities();
+            OptionDataEntities optionEntities = new OptionDataEntities();
+            var polls = entities.Polls.ToList();
+            List<Option> options = new List<Option>();
+            foreach (var poll in polls)
             {
-                return entities.Polls.ToList();
+                var allOptions = optionEntities.Options.Where(o => o.PollID == poll.ID).ToList();
+                foreach (var currentOption in allOptions)
+                {
+                    options.Add(currentOption);
+                }
             }
+            var model = new PollResponse { _pollDetails = polls, _optionDetails = options };
+            return Ok(model);
+        }
+
+
+        [HttpGet]
+        [Route("detail")]
+        public IHttpActionResult Detail(int id)
+        {
+            PollDataEntities pollDataEntities = new PollDataEntities();
+            OptionDataEntities optionEntities = new OptionDataEntities();
+            List<Option> options = new List<Option>();
+            var allOptions = optionEntities.Options.Where(o => o.PollID == id).ToList();
+            var poll = pollDataEntities.Polls.Find(id);
+            foreach (var currentOption in allOptions)
+            {
+                options.Add(currentOption);
+            }
+            var model = new PollDetailResponse { _pollDetail = poll, _optionDetails = options };
+            return Ok(model);
         }
 
         [HttpPost]

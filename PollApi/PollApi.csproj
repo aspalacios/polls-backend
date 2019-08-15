@@ -119,8 +119,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginRequest.cs" />
-    <Compile Include="Models\OptionRequest.cs" />
+    <Compile Include="Models\PollDetailResponse.cs" />
     <Compile Include="Models\PollRequest.cs" />
+    <Compile Include="Models\PollResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +137,10 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OptionDataAccess\OptionDataAccess.csproj">
+      <Project>{5699242c-1eeb-4c06-b406-b4c7f5ab049d}</Project>
+      <Name>OptionDataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PollDataAccess\PollDataAccess.csproj">
       <Project>{81140ab1-f609-4eaa-a1f5-aff8777d45d6}</Project>
       <Name>PollDataAccess</Name>
