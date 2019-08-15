@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollApi", "PollApi\PollApi.csproj", "{A4718530-9FDA-4ADF-A189-A124DE75E13F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDataAccess", "UserDataAccess\UserDataAccess.csproj", "{E5B656A3-69A9-4C10-8714-480B57E62C3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4718530-9FDA-4ADF-A189-A124DE75E13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4718530-9FDA-4ADF-A189-A124DE75E13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4718530-9FDA-4ADF-A189-A124DE75E13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4718530-9FDA-4ADF-A189-A124DE75E13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B656A3-69A9-4C10-8714-480B57E62C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B656A3-69A9-4C10-8714-480B57E62C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B656A3-69A9-4C10-8714-480B57E62C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B656A3-69A9-4C10-8714-480B57E62C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {543126B6-7400-4AFE-A3E2-BC63BB06F661}
+	EndGlobalSection
+EndGlobal
